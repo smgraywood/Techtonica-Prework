@@ -181,7 +181,21 @@ function exercise7(num7) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+if(num7 === 1){
+answer7 = "You won!"
+}
+else if(num7 === 7){
+    answer7 = "You are very lucky!"
+}
+else if(num7===101){
+    answer7 = "Welcome to coding 101!"
+}
+else if(num7 === 1000000){
+    answer7 = "You are one in a million!"
+}
+else{
+    answer7 = "Thanks for that!"
+}
   // --------------------------------------------
   // And above here
   // --------------------------------------------
@@ -198,7 +212,12 @@ function exercise8(amount1, amount2, minimum, maximum) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+if (minimum<amount1<maximum && minimum<amount2<maximum){
+    answer8 = true
+}
+else{
+    answer8 = false
+}
   // --------------------------------------------
   // And above here
   // --------------------------------------------
@@ -217,7 +236,27 @@ function exercise9(item) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+  if(item === 1){
+    answer9 = "You won!"
+    }
+    else if (item === ""){
+        "Please send a number, that was a string."
+    }
+    else if (item === true){
+        "Please send a number, that was a boolean."
+    }
+    else if(item === 7){
+        answer9 = "You are very lucky!"
+    }
+    else if(item===101){
+        answer9 = "Welcome to coding 101!"
+    }
+    else if(item === 1000000){
+        answer9 = "You are one in a million!"
+    }
+    else{
+        answer9 = "Thanks for that!"
+    }
   // --------------------------------------------
   // And above here
   // --------------------------------------------
@@ -239,7 +278,19 @@ function exercise10(num10) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+  {
+      if (num10 % 3 == 0){
+          answer10="FizzBuzz"
+        }
+      else if (num10 % 5 == 0){
+          answer10 ="Fizz"
+        }
+      else if (num10 % 15 == 0){
+          answer10 = "Buzz"
+        }
+      else{
+          answer10=num10
+        }
   // --------------------------------------------
   // And above here
   // --------------------------------------------
@@ -249,6 +300,6 @@ function exercise10(num10) {
 // Congrats, you made it to the end! You rock!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//Some questions were difficult, others were easier for me. I used the javascript Udacity course as a reference and it helped!
 
 // Email your file to us or commit your file to GitHub and email us a link.
