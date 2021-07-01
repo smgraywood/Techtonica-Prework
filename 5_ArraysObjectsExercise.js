@@ -26,13 +26,18 @@ console.log(animals[4])
 // Exercise 8. Remove the last item from the array
 animals.pop()
 // Exercise 9. Now make a new array named assortedThings that contains at least 3 strings and 3 numbers.
-assortedThings[1, 3, 5, "Hello", "I love you", "Thank you, next"]
+assortedThings=[1, 3, 5, "Hello", "I love you", "Thank you, next"]
 
 // Exercise 10. Write a for loop that iterates through the assortedThings array and prints each index and item, such as:
 // Item #0 is potato
 // Item #1 is 4
 // Item #2 is Hello World
 // ...
+
+for (let i = 0; i < assortedThings.length; i++) {
+  console.log("Item #" + i + " is " + assortedThings[i])
+}
+
 
 
 
@@ -46,20 +51,54 @@ assortedThings[1, 3, 5, "Hello", "I love you", "Thank you, next"]
 //
 // Then write some function calls you would use to test your function.
 
+function arrayOfNumbers([-2, 200, 50]){
+    if (arrayOfNumbers>100){
+        console.log(i + " BIG")
+    }
+    else if (arrayOfNumbers >= 0 && arrayOfNumber <= 100){
+        console.log(i + " small")
+    }
+    else if (arrayOfNumbers < 0){
+        console.log(i + " negative")
+    }
+    }
+    
+
 // Exercise 12. Make an object called me that contains the following keys: name, favoriteAnimal, favoriteNumber
 // The values of those keys can be whatever you choose.
 
+const me = {
+    name: Sarah,
+    favoriteAnimal: sloth,
+    favoriteNumber: 73
+}
+console.log(Object.keys(me));
 // Exercise 13. Add another 2 keys and values to the object (you choose what they are)
+
+const me = {
+    name: "Sarah",
+    favoriteAnimal: "sloth",
+    favoriteNumber: 73,
+    favoriteFood: "Sushi",
+    favoriteDrink: "Salted Caramel Mocha Frap"
+}
+console.log(Object.keys(me));
 
 // Exercise 14. Update the favoriteAnimal value to something different
 
+me["favoriteAnimal"] = "Ocelot";
+
 // Exercise 15. Print the value of favoriteAnimal.
 // Note: there are at least 2 ways to get the value of a key, try to write both.
+console.log(me.favoriteAnimal);
+return me.favoriteAnimal;
+
 
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+
+//These were a little harder. I used MDN and W3S as references as well as the Udacity course on Javascript
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
