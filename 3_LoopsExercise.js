@@ -145,18 +145,22 @@ inside 2
 inside 1
 *********************************** 
 */
-
-for (let outsideCounter = 0; outsideCounter <= 3 && outsideCounter>0; i-- ) {
-  console.log("counting down from ", outsideCounter);
-  for (let insideCounter = outsideCounter; insideCounter <= 3 && insideCounter>0; i--) {
-    console.log("inside " + insideCounter);
-  }
-  console.log("***********************************");
-}
+function counter(){
+    for (let outsideCounter = 0; outsideCounter <= 3; outsideCounter++) {
+      console.log("counting down from " + outsideCounter);
+    
+      for (let insideCounter = outsideCounter; insideCounter <= 3 && insideCounter > 0; insideCounter--) {
+        console.log("inside " + insideCounter);
+      }
+      console.log("***********************************");
+    }
+    }
+    counter()
 
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
+
 //For the most part I found it fairly easy. I used W3S as a reference for the do while loops and it was very helpful!
 
 // Email your file to us or commit your file to GitHub and email us a link.
