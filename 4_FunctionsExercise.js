@@ -145,7 +145,8 @@ console.log(splits)
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//This one was a little harder for me. I definitely used references from MDN, codegrepper, and the Javascript course from Udacity. 
+//I also debugged some code through pair work in the study session and with my mentor. 
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
